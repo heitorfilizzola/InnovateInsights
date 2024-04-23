@@ -164,4 +164,7 @@ footer{
     display: flex;
     float: right;
     width: 30px;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 50px;
 }
