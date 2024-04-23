@@ -174,3 +174,37 @@ footer{
     margin-right: 360px;
     margin-top: 50px;
 }
+
+/*icone dos planos */
+
+.mayn {
+    margin-top: 42px;
+    margin-left: 43px;
+    margin-right: 120px;
+    }
+    
+    
+    .planos {
+    height: 79px;
+    width: 458px;
+    border-radius: 15px;
+    border: 100%;
+    background-color: #2F7321;
+    }
+    
+    #plano1 {
+    color: white;
+    width: 389px;
+    height: 26px;
+    font-size: 18px;
+    padding: 27px 46px 26px 23px;
+    }
+    
+    #plano3 {
+        color: white;
+        width: 389px;
+        height: 26px;
+        font-size: 16px;
+        padding: 27px 46px 26px 23px;
+        }
+        /*fim dos planos */
