@@ -179,7 +179,8 @@ footer{
 }
 
 .cinza {
-    width: 70px;
+    all: unset;
+    height: 70px;
     background-color: #f2f2f2;
 }
 
