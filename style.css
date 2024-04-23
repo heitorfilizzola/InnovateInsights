@@ -1,12 +1,12 @@
-/*todo css*/
-
 *{
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
 
-/*header*/
+/*
+header
+*/
 
 .pre_login{
     background-color: #3ca028;
@@ -56,10 +56,14 @@
     border-radius: 6px;
 }
 
-/*Header fim*/
+/*
+Header fim
+*/
 
 
-/*Main*/
+/*
+main fim
+*/
 
 /*.depodaniel{}*/
 
@@ -67,6 +71,10 @@ main{
     margin-top: 165px;
     margin-left: 80px;
 }
+
+/*
+testemunhas
+*/
 
 .btnsaibamais1{
     display: flex;
@@ -80,9 +88,15 @@ main{
     width: 130px;
 }
 
-/*main*/
+/*
+main fim
+*/
 
-/*footer*/
+
+
+/*
+footer
+*/
 
 footer{
     margin-left: 80px;
