@@ -64,6 +64,7 @@
 /*.depodaniel{}*/
 
 main{
+    margin-top: 165px;
     margin-left: 80px;
 }
 
@@ -139,6 +140,8 @@ footer{
 }
 
 .copi {
+    display: flex;
+    float: left;
     height: 14px;
     margin-top: 50px;
 }
