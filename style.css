@@ -73,6 +73,8 @@
     border-radius: 6px;
 }
 
+/*main*/
+
 /*footer*/
 
 footer{
@@ -128,4 +130,27 @@ footer{
     border: 1px solid rgb(0, 0, 0);
     width: 1520px;
     margin-top: 75px;
+}
+
+.copi {
+    height: 18px;
+    width: 190px;
+    margin-left: 80px;
+    margin-top: 42px;
+}
+
+.ig {
+    float: right;
+    width: 30px;
+    position: relative;
+    right: 340px;
+    top: -20px;
+}
+
+.fb {
+    float: right;
+    width: 30px;
+    position: relative;
+    right: 270px;
+    top: -21px;
 }
