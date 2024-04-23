@@ -65,6 +65,7 @@
 
 
 .btnsaibamais1{
+    display: flex;
     padding: 07px 20px 07px 20px;
     color: black;
     background-color: white;
@@ -137,7 +138,6 @@ footer{
 .copi {
     height: 18px;
     width: 190px;
-    margin-left: 80px;
     margin-top: 42px;
 }
 
