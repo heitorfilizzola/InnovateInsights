@@ -166,12 +166,16 @@ footer{
     float: right;
     width: 30px;
     margin-top: 50px;
+    margin-right: 240px;
+    gap: 30px;
 }
 
 .txtRedes {
+    display: flex;
     float: right;
     height: 18px;
-    margin-top: 50px;
+    margin-top: 55px;
+    margin-right: 70px;
 }
 
 /*icone dos planos */
