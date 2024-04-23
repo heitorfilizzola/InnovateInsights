@@ -63,6 +63,9 @@
 
 /*.depodaniel{}*/
 
+main{
+    margin-left: 80px;
+}
 
 .btnsaibamais1{
     display: flex;
