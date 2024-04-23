@@ -160,17 +160,28 @@ footer{
     margin-top: 50px;
 }
 
-.redes {
-    display: flex;
+#txtimg {
+    height: 18px;
+    width: 190px;
     float: right;
-    width: 30px;
-    margin-top: 50px;
+    margin-right: 360px;
+    margin-top: 42px;
 }
 
-.txtRedes {
+#ig {
     float: right;
-    height: 18px;
-    margin-top: 50px;
+    width: 30px;
+    position: relative;
+    right: 340px;
+    top: -20px;
+}
+
+#fb {
+    float: right;
+    width: 30px;
+    position: relative;
+    right: 270px;
+    top: -21px;
 }
 
 /*icone dos planos */
