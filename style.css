@@ -139,18 +139,8 @@ footer{
     margin-top: 42px;
 }
 
-.ig {
+.redes {
+    display: flex;
     float: right;
     width: 30px;
-    position: relative;
-    right: 340px;
-    top: -20px;
-}
-
-.fb {
-    float: right;
-    width: 30px;
-    position: relative;
-    right: 270px;
-    top: -21px;
 }
