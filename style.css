@@ -123,6 +123,7 @@ footer{
     float: right;
     text-align: left;
     margin-top: 120px;
+    text-decoration: none;
 }
 
 .btnLogin1{
@@ -160,31 +161,17 @@ footer{
     margin-top: 50px;
 }
 
-#txtimg {
+.redes {
     display: flex;
+    float: right;
+    width: 30px;
+    margin-top: 50px;
+}
+
+.txtRedes {
+    float: right;
     height: 18px;
-    width: 190px;
-    float: right;
-    margin-right: 360px;
-    margin-top: 42px;
-}
-
-#ig {
-    display: flex;
-    float: right;
-    width: 30px;
-    position: relative;
-    right: 340px;
-    top: -20px;
-}
-
-#fb {
-    display: flex;
-    float: right;
-    width: 30px;
-    position: relative;
-    right: 270px;
-    top: -21px;
+    margin-top: 50px;
 }
 
 /*icone dos planos */
