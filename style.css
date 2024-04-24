@@ -67,6 +67,70 @@ main{
 }
 
 /*
+Serviços
+*/
+
+.servicosList1{
+    height: 100px;
+    width: 500px;
+    background-color: #3ca028;
+    border-radius: 15px;
+    margin-bottom: 75px;
+    box-shadow: 5px 5px 5px rgb(120, 120, 120);
+}
+
+#txtList1{
+    color: white;
+    text-align: center;
+    padding-top: 38px;
+    margin-top: 45px;
+}
+
+.servicosList2{
+    height: 100px;
+    width: 500px;
+    background-color: #3ca028;
+    border-radius: 15px;
+    margin-bottom: 75px;
+    box-shadow: 5px 5px 5px rgb(120, 120, 120);
+}
+
+#txtList2{
+    color: white;
+    text-align: center;
+    padding-top: 38px;
+}
+
+.servicosList3{
+    height: 100px;
+    width: 500px;
+    background-color: #3ca028;
+    border-radius: 15px;
+    margin-bottom: 255px;
+    box-shadow: 5px 5px 5px rgb(120, 120, 120);
+}
+
+#txtList3{
+    color: white;
+    text-align: center;
+    padding-top: 38px;
+}
+
+#img1{
+    display: flex;
+    float: right;
+    width: 360px;
+    height: 450px;
+    margin-top: 45px;
+    margin-right: 365px;
+}
+/*
+Serviços fim
+*/
+
+
+
+/*
 testemunhas
 */
 
@@ -161,6 +225,7 @@ main {
     border-radius: 8px;
     height: 20px;
     width: 90px;
+    margin-bottom: 20px;
 }
 
 #linkchristian {
