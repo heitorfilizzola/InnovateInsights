@@ -61,12 +61,6 @@ Header fim
 */
 
 
-/*
-main fim
-*/
-
-/*.depodaniel{}*/
-
 main{
     margin-top: 165px;
     margin-left: 80px;
@@ -76,16 +70,102 @@ main{
 testemunhas
 */
 
-.btnsaibamais1{
+
+.espaçoleft {
+    margin-bottom: 15px;
+}
+
+.depoimentosall {
     display: flex;
-    padding: 07px 20px 07px 20px;
+    flex-direction: row;
+    gap: 300px
+}
+
+#depoleft {
+    display: flex;
+    flex-direction: column;
+    max-width: 35%;
+}
+
+main {
+    margin-top: 165px;
+    margin-left: 80px;
+}
+
+.btnsaibamais1 {
+    display: flex;
+    padding: 11px 33px 11px 33px;
     color: black;
     background-color: white;
     border: 2px solid black;
+    border-radius: 8px;
+    height: 20px;
+    width: 90px;
+}
+
+#linkdaniel {
     text-decoration: none;
-    border-radius: 6px;
-    height: 40px;
-    width: 130px;
+    color: black;
+}
+
+.btnsaibamais2 {
+    display: flex;
+    padding: 11px 33px 11px 33px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 20px;
+    width: 90px;
+}
+
+#linkjorge {
+    text-decoration: none;
+    color: black;
+}
+
+/* Depoimentos Direita */
+.espaçoright {
+    margin-bottom: 15px;
+}
+
+.deporight {
+    display: flex;
+    flex-direction: column;
+    max-width: 35%;
+
+}
+
+.btnsaibamais3 {
+    display: flex;
+    padding: 11px 33px 11px 33px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 20px;
+    width: 90px;
+}
+
+#linkjoana {
+    text-decoration: none;
+    color: black;
+}
+
+.btnsaibamais4 {
+    display: flex;
+    padding: 11px 33px 11px 33px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 20px;
+    width: 90px;
+}
+
+#linkchristian {
+    text-decoration: none;
+    color: black;
 }
 
 /*
@@ -180,10 +260,10 @@ footer{
 
 .cinza {
     all: unset;
+    margin: 0px 0px 0px 0px;
     height: 70px;
     background-color: #f2f2f2;
     display: flex;
-    width: max-content;
 }
 
 /*icone dos planos */
