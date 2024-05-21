@@ -9,7 +9,7 @@ header
 */
 
 .pre_login {
-    background-color: #3ca028;
+    background: rgba(r,g,b,a);
     height: 60px;
 }
 
@@ -33,8 +33,7 @@ header
 .btns {
     all: unset;
     padding-right: 54px;
-    color: white;
-    text-shadow: 5px 5px 5px rgb(90, 90, 90);
+    cursor: pointer;
 }
 
 .bts{
@@ -55,6 +54,14 @@ header
     height: 14px;
 }
 
+#frame1 {
+    transition: 0.4s ease all;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 30;
+}
+
 .btnRegister {
     padding: 11px 42px 11px 42px;
     color: white;
@@ -69,6 +76,18 @@ header
 Header fim
 */
 
+#frame0 {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero__img {
+    position: absolute;
+    top:0;
+    left:0;
+}
 
 #Borda {
     margin-top: 165px;
@@ -210,7 +229,7 @@ testemunhas
 
 }
 
-.btnsaibamais3 {
+#btnsaibamais3 {
     display: flex;
     padding: 11px 33px 11px 33px;
     color: black;
@@ -226,7 +245,7 @@ testemunhas
     color: black;
 }
 
-.btnsaibamais4 {
+#btnsaibamais4 {
     display: flex;
     padding: 11px 33px 11px 33px;
     color: black;
