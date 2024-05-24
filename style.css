@@ -68,6 +68,14 @@ header
     z-index: 30;
 }
 
+#frame {
+    transition: 0.4s ease all;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 30;
+}
+
 .btnRegister {
     padding: 11px 42px 11px 42px;
     color: white;
