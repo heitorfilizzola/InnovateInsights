@@ -9,7 +9,12 @@ header
 */
 
 .pre_login {
-    background: rgba(r,g,b,a);
+    background: #3ca028;
+    height: 60px;
+}
+
+.pre_login1 {
+    background-color: rgba(r,g,b,a);
     height: 60px;
 }
 
@@ -34,6 +39,7 @@ header
     all: unset;
     padding-right: 54px;
     cursor: pointer;
+    color: white;
 }
 
 .bts{
@@ -624,6 +630,7 @@ REGISTER PAGE
 #grayBorder {
     padding: 17px 64px 60px 64px;
     background-color: #f2f2f2;
+    min-width: 600px;
 }
 
 #signupCont2{
@@ -633,7 +640,8 @@ REGISTER PAGE
     border: 1px solid #a3a3a3;
     border-radius: 15px;
     padding-bottom: 64px;
-    
+    min-width: 610px;
+    max-width: 670px;
 }
 
 #insideBorder{
@@ -927,7 +935,7 @@ REGISTER PAGE
 }
 
 #fotonovaroma {
-    display: inline-block;
+    display: flex;
     float: right;
     width: 240px;
     height: 240px;
