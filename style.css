@@ -14,7 +14,6 @@ header
 }
 
 .pre_login1 {
-    background-color: rgba(r,g,b,a);
     height: 60px;
 }
 
@@ -40,6 +39,7 @@ header
     padding-right: 54px;
     cursor: pointer;
     color: white;
+    font-weight: bold;
 }
 
 .bts{

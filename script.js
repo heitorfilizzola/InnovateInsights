@@ -24,5 +24,11 @@ window.onscroll = () => {
             headerImg.src = "imgs/logocinza.png"
         }
 
+        const navgrad = document.querySelector(".pre_login1")
+      if (window.scrollY > 0) {
+        navgrad.style.background = "rgba(0,0,0,0)"
+      }else{
+        navgrad.style.background = "linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(164,164,164,1) 78%, rgba(164,164,164,1) 95%, rgba(164,164,164,1) 100%);"
+      }
     }
     
