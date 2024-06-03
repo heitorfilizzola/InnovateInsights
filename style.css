@@ -393,7 +393,6 @@ footer {
 .imgFooter {
     height: 225px;
     width: 197px;
-    ;
 }
 
 .btnsRight {
@@ -600,6 +599,7 @@ PAGINA DE PLANOS
     border-radius: 5px;
     color: white;
     box-shadow: 5px 5px 5px rgb(215, 215, 215);
+    cursor: pointer;
 }
 
 #registerBtn {
@@ -614,6 +614,7 @@ PAGINA DE PLANOS
     border: 1px solid black;
     width: 130px;
     text-align: center;
+    cursor: pointer;
 }
 
 /*
@@ -851,60 +852,60 @@ REGISTER PAGE
     background-color: white;
     }
     
-    #txt1 {
-        width: 1230px;
-        height: 53px;
-        margin-top: 100px;
-        margin-left: 420px;
-        font-size: 38px;
-    }
+#txt1 {
+    width: 1230px;
+    height: 53px;
+    margin-top: 100px;
+    margin-left: 420px;
+    font-size: 38px;
+}
     
-    #txt2 {
-        margin-left: 154px;
-        margin-top: 77px;
-        width: 1571px;
-        height: 100px;
-        font-size: 30px;
-        text-align: center;
-    }
+#txt2 {
+    margin-left: 154px;
+    margin-top: 77px;
+    width: 1571px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+}
     
-    .fotospag4cima{
+.fotospag4cima{
     display: flex;
     flex-direction: row;
     width: 1061px;
     height: 80px;
     margin-left: 408px;
-    }
+}
     
-    .fotospag4baixo{
-        display: flex;
-        flex-direction: row;
-        width: 1061px;
-        height: 80px;
-        margin-left: 408px;
-    }
+.fotospag4baixo{
+    display: flex;
+    flex-direction: row;
+    width: 1061px;
+    height: 80px;
+    margin-left: 408px;
+}
     
-    .fotocima {
-        display: flex;
+.fotocima {
+    display: flex;
     width: 173px;
     height: 76px;
     border-radius: 5px;
     object-fit: cover;
     margin-top: 83px;
     padding-left: 70px;
-        padding-right: 10px;
-    }
+    padding-right: 10px;
+}
     
-    .fotobaixo {
-        display: flex;
-        width: 173px;
-        height: 76px;
-        border-radius: 9px;
-        object-fit: cover;
-        margin-top: 223px;
-        padding-left: 70px;
-        padding-right: 10px;
-    }
+.fotobaixo {
+    display: flex;
+    width: 173px;
+    height: 76px;
+    border-radius: 9px;
+    object-fit: cover;
+    margin-top: 223px;
+    padding-left: 70px;
+    padding-right: 10px;
+}
 
     /* parte 4 fim */
 
@@ -955,4 +956,78 @@ REGISTER PAGE
 
 #instaetxtnr{
     background-color: #f2f2f2;
+}
+
+/* Tela de perfil*/
+
+#bordaCinza {
+    background-color: #f2f2f2;
+    padding-top: 15px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+#framePerfil {
+    height: 960px;
+    background-color: white;
+}
+
+#frameUser {
+    all: unset;
+    background-color: white;
+    padding: 40px 45px 0 45px;
+    margin: 40px 20px 50px 20px;
+    box-shadow: 5px 5px 5px 5px rgb(215, 215, 215);
+    height: 591px;
+    width: 250px;
+    display: inline-block;
+    align-items: center;
+}
+
+#imgUsr {
+    border-radius: 50%;
+    width: 255px;
+    height: 255px;
+    text-align: center;
+}
+
+#nameAge {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#textsProfile{
+    padding-top: 15px;
+}
+
+.txtprof {
+    padding-bottom: 2.5px;
+}
+
+#graficos {
+    padding-top: 50px;
+    box-shadow: 5px 5px 5px 5px rgb(215, 215, 215);
+    margin-top: 40px;
+    float: right;
+    width: 1350px;
+    margin-right: 35px
+}
+
+/*Pricing */
+
+#framePricing {
+    height: 960px;
+    background-color: white;
+}
+
+.plan {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 105px;
+    width: 385px;
+}
+
+#txtPlan {
+    display: table-column;
 }
