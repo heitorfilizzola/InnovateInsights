@@ -1107,10 +1107,10 @@ REGISTER PAGE
 
 
 .txtplano {
-font-size: 13px;
-margin-top: 39px ;
-position: absolute;
-left: 383px;
+    font-size: 13px;
+    margin-top: 39px;
+    position: absolute;
+    left: 383px;
 
 }
 
@@ -1123,7 +1123,7 @@ left: 383px;
 
 .txtplan4 {
     font-size: 13px;
-    margin-top: 39px ;
+    margin-top: 39px;
     position: absolute;
     left: 383px;
 
@@ -1131,14 +1131,14 @@ left: 383px;
 
 .txtplan42 {
     font-size: 13px;
-    margin-top: 54px ;
+    margin-top: 54px;
     position: absolute;
     left: 383px;
 }
 
 .txtplan43 {
     font-size: 13px;
-    margin-top: 69px ;
+    margin-top: 69px;
     position: absolute;
     left: 383px;
 }
@@ -1156,7 +1156,7 @@ left: 383px;
 
 /*Feedbacks*/
 
-#frame1_Feed{
+#frame1_Feed {
     height: 150px;
     width: 1200px;
     display: flex;
@@ -1164,19 +1164,23 @@ left: 383px;
     align-items: center;
 }
 
-#bordaCinza_Feed{
+#bordaCinza_Feed {
     background-color: #f2f2f2;
     padding-top: 85px;
     padding-left: 65px;
     padding-right: 65px;
 }
 
-#frameFeed{
+#frameFeed {
     height: 550px;
     background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid;
+    border-color: #3ca028;
 }
 
-#texts_Feed{
+#texts_Feed {
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -1186,7 +1190,7 @@ left: 383px;
     margin-top: 145px;
 }
 
-#kidsimg{
+#kidsimg {
     height: 70%;
     margin: 65px 0 0 50px;
     border-radius: 50px;
@@ -1221,19 +1225,23 @@ left: 383px;
     box-shadow: 0px 5px 5px 5px rgb(215, 215, 215);
 }
 
-#bordaCinza_Feed{
+#bordaCinza_Feed {
     background-color: #f2f2f2;
     padding-top: 85px;
     padding-left: 65px;
     padding-right: 65px;
 }
 
-#frame3Feed{
+#frame3Feed {
     height: 400px;
     background-color: white;
     text-align: center;
     font-size: x-large;
     margin-top: 60px;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #3ca028;
+
 }
 
 .txts_Feed3 {
@@ -1263,7 +1271,7 @@ left: 383px;
     box-shadow: 0px 5px 5px 5px rgb(215, 215, 215);
 }
 
-#frame5Feed{
+#frame5Feed {
     height: 400px;
     background-color: white;
     font-size: x-large;
