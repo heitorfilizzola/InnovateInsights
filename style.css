@@ -1013,9 +1013,6 @@ REGISTER PAGE
     float: right;
     position: relative;
     right: 0;
-
-
-
 }
 
 /* Tela de perfil*/
@@ -1080,14 +1077,116 @@ REGISTER PAGE
     background-color: white;
 }
 
-.plan {
-    display: flex;
-    border: 1px solid black;
-    border-radius: 10px;
-    height: 105px;
-    width: 385px;
+#planos {
+    margin-left: 297px;
 }
 
-#txtPlan {
-    display: table-column;
+.boxpreco {
+    color: #2F7321;
+    display: flex;
+    border: 1px solid #2F7321;
+    border-radius: 10px;
+    height: 106px;
+    width: 384px;
+    margin-top: 30px;
+}
+
+.price1 {
+
+    margin-left: 145px;
+    margin-top: 77px;
+}
+
+#tituplano {
+    margin-top: 17px;
+    margin-left: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+
+.txtplano {
+font-size: 13px;
+margin-top: 39px ;
+position: absolute;
+left: 383px;
+
+}
+
+.tituplan4 {
+    margin-top: 17px;
+    margin-left: 20px;
+    height: 30px;
+    width: 250px;
+}
+
+.txtplan4 {
+    font-size: 13px;
+    margin-top: 39px ;
+    position: absolute;
+    left: 383px;
+
+}
+
+.txtplan42 {
+    font-size: 13px;
+    margin-top: 54px ;
+    position: absolute;
+    left: 383px;
+}
+
+.txtplan43 {
+    font-size: 13px;
+    margin-top: 69px ;
+    position: absolute;
+    left: 383px;
+}
+
+.price4 {
+    margin-left: 61px;
+    margin-top: 77px;
+    width: 160px;
+    height: 30px;
+}
+
+/*Pricing FIM*/
+
+
+
+/*Feedbacks*/
+
+#frame1_Feed{
+    height: 150px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bordaCinza_Feed{
+    background-color: #f2f2f2;
+    padding-top: 85px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+#frameFeed{
+    height: 550px;
+    background-color: white;
+}
+
+#texts_Feed{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 50px 70px 0px 0px;
+    float: right;
+    max-width: 920px;
+    margin-top: 145px;
+}
+
+#kidsimg{
+    height: 70%;
+    margin: 65px 0 0 50px;
+    border-radius: 50px;
 }
