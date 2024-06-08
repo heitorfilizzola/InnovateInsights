@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet" />
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
   </head>
   <header>
     <div class="pre_login">
@@ -43,9 +45,74 @@
           </div>
         </div>
         <div id="graficos">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur adipisci suscipit illum laborum rem
-            ullam obcaecati placeat explicabo nobis cum possimus voluptate quis, vitae et tenetur, hic ducimus
-            voluptates mollitia?</p>
+          <div>
+            <canvas id="myChart"></canvas>
+          </div>
+          <script>
+            const ctx = document.getElementById('myChart').getContext('2d');
+          
+            new Chart(ctx, {
+              type: 'bar', // Tipo de gráfico base
+              data: {
+                labels: ['1º Mês', '2º Mês', '3º Mês', '4º Mês', '5º Mês', 'Atualmente'],
+                datasets: [
+                  {
+                    label: 'Peso (Kg)',
+                    data: [230, 210, 130, 100, 72, 65],
+                    borderWidth: 1,
+                    type: 'line', // Especifica que este dataset é do tipo 'line'
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    tension: 0.3
+                  },
+                  {
+                    label: 'IMC(Kg/m²)',
+                    data: [75.10, 68.57, 42.45, 32.65, 23.51, 21.22],
+                    borderWidth: 1,
+                    backgroundColor: [
+                      'rgba(255, 69, 102, 0.8)',
+                      'rgba(255, 69, 102, 0.8)',
+                      'rgba(255, 69, 102, 0.8)',
+                      'rgba(255, 69, 102, 0.8)',
+                      'rgba(245, 155, 0, 0.5)',
+                      'rgba(0, 155, 0, 0.5)',
+                    ],
+                    borderColor: [
+                      'rgba(255, 69, 102, 1)',
+                      'rgba(255, 69, 102, 1)',
+                      'rgba(255, 69, 102, 1)',
+                      'rgba(255, 69, 102, 1)',
+                      'rgba(245, 155, 0, 1)',
+                      'rgba(0, 155, 0, 1)'
+                  ],
+                    // Mês 1 -> obesidade classe 3
+                    // Mês 2 -> obesidade classe 3
+                    // Mês 3 -> obesidade classe 3
+                    // Mês 4 -> obesidade classe 1
+                    // Mês 5 -> peso normal
+                    // Mês 6 -> peso normal
+                  }
+                ]
+              },
+              options: {
+                scales: {
+                  y: {
+                    beginAtZero: true
+                  }
+                }
+              }
+            });
+          </script>    
+        </div>
+        <div id="frameClassifications">
+          <h4>Classificação Do IMC</h4>
+          <p><span id="vermelho" class="color-circle"></span>obesidade classe 3</p>
+          <p><span id="roxo" class="color-circle"></span>obesidade classe 2</p>
+          <p><span id="amarelo" class="color-circle"></span>obesidade classe 1</p>
+          <p><span id="verde" class="color-circle"></span>normal</p>
+        </div>
+        <div id="buttonPlan">
+        <a href="../plano4/index.html" id="planBtn">Meu Plano -></a>
         </div>
       </div>
     </div>
