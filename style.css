@@ -517,7 +517,7 @@ PAGINA DE PLANOS
     padding-right: 65px;
 }
 
-#frame1Plans {
+#framePlans {
     height: 1750px;
     background-color: white;
     border-radius: 20px;
@@ -550,7 +550,6 @@ PAGINA DE PLANOS
     padding: 15px 15px 15px 15px;
     list-style: none;
 }
-
 
 
 /*icone dos planos */
