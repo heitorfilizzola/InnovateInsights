@@ -1185,6 +1185,7 @@ REGISTER PAGE
 
 #planos {
     margin-left: 297px;
+    padding-top: 50px;
 }
 
 .boxpreco {
@@ -1254,6 +1255,97 @@ REGISTER PAGE
     width: 160px;
     height: 30px;
 }
+
+/* pagamento */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 56vh;
+    background: #fff ;
+    float: right;
+    border: 1px solid #000;
+    border-radius: 6px;
+    position: absolute;
+    top: 150px;
+    left: 1000px;    
+}
+
+    
+.container form {
+    width: 700px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+}
+    
+form .row {
+    display: flex;
+    gap: 15px;
+}
+    
+.row .column {
+    flex: 1 1 250px;
+}
+    
+.column .title {
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+    
+.input-box span {
+    display: block;
+    margin-bottom: 10px;
+}
+    
+    
+    
+.column .input-box {
+    margin: 15px 0;
+}
+    
+.input-box input {
+    width: 85%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+    
+.column .flex {
+    display: flex;
+    gap: 15px;
+}
+    
+.flex .input-box {
+    margin-top: 5px;
+}
+    
+form .btn {
+    width: 100%;
+    padding: 12px;
+    background: #2F7321;
+    border: none; 
+    outline: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+    
+    
+    
+.input-box img {
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
 
 /*Pricing FIM*/
 
@@ -1347,6 +1439,7 @@ REGISTER PAGE
 }
 
 #frame3Feed {
+    display: flex;
     height: 550px;
     background-color: white;
     border-radius: 20px;
@@ -1354,6 +1447,7 @@ REGISTER PAGE
     border-color: #3ca028;
     width: 100%;
     flex-direction: row;
+
 }
 
 #txts_Feed3 {
@@ -1367,10 +1461,13 @@ REGISTER PAGE
 }
 
 #imgPersonal {
+    display: flex;
     width: 30%;
-    margin: 125px 0px 0px 95px;
+    margin: 75px 125px 0px 95px;
     border-radius: 50px;
     box-shadow: 0px 5px 5px 5px rgb(215, 215, 215);
+    object-fit: cover;
+    height: 400px;
 }
 
 /*Fim 3*/
@@ -1404,6 +1501,7 @@ REGISTER PAGE
     border-radius: 50px;
     margin: 95px 115px 60px 0;
     box-shadow: 0px 5px 5px 5px rgb(215, 215, 215);
+    object-fit: cover;
 }
 
 
